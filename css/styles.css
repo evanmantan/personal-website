@@ -1,9 +1,19 @@
 body {
     margin: 0 0;
+    font-family: sans-serif;
 }
 
-div#hero {
-    background-image: url("../images/hero-bg.png");
+
+nav {
+    position: fixed;
+}
+
+ul {
+    margin: 0 0;
+}
+
+div#home {
+    background-image: url("../images/bg-home.png");
     height: 100vh;
     display: flex;
     align-items: center;
@@ -12,4 +22,6 @@ div#hero {
 
 h1 {
     margin: 0;
+    font-family: monospace;
+    font-size: xxx-large;
 }
