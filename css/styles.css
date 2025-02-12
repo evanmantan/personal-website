@@ -1,6 +1,26 @@
+/* Design System: Color and Font */
+:root {
+    /* Base Color for typography */
+    --clr-base-dk: #43363Eff;
+    --clr-base-lt: #827D89ff;
+    --clr-base-ltr: #B0B3BEff;
+
+    /* Accent Color */
+    --clr-primary: #222B4Cff;
+    --clr-secondary: #C51B12ff;
+
+    /* Font */
+    --ff-head: "Major Mono Display", monospace;
+    --ff-body: "Poppins", serif;
+    --fw-head: 400;
+    --fw-body: 400;
+    --fs-head: normal;
+    --fs-body: normal;
+}
+
 body {
     margin: 0 0;
-    font-family: sans-serif;
+    font-family: var(--ff-body);
 }
 
 
@@ -22,6 +42,6 @@ div#home {
 
 h1 {
     margin: 0;
-    font-family: monospace;
+    font-family: var(--ff-head);
     font-size: xxx-large;
 }
