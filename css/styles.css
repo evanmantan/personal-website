@@ -36,8 +36,9 @@ div#home {
     background-image: url("../images/bg-home.png");
     height: 100vh;
     display: flex;
-    align-items: center;
     padding-left: 200px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
