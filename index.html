@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Hello World</title>
 </head>
@@ -30,22 +31,25 @@
                     &nbsphEllO<br>
                     wOrlD!
                 </h1>
-                <div class="home__content">
-                    <div class="button">
-                        <img src="images/home-cv.svg" alt="File Open icon" class="button__icon">
-                        <button class="button__link"><a href="./downloads/CV_Evan Manuel Tan.pdf" target="_blank">My CV</a></button>
-                    </div>
-                    <div class="button">
-                        <img src="images/home-email.svg" alt="Email icon" class="button__icon">
-                        <button class="button__link"><a href="mailto:evanmanuel1674@gmail.com">Contact Me</a></button>
-                    </div>
+                <p class="home__text">
+                    I'm Evan, an engineer
+                </p>
+                <div class="home__buttons">
+                    <a href="./downloads/CV_Evan Manuel Tan.pdf" target="_blank" class="button">
+                        <i class="material-icons button__icon">file_open</i>
+                        <p class="button__text">My CV</p>
+                    </a>
+                    <a href="mailto:evanmanuel1674@gmail.com" target="_blank" class="button">
+                        <i class="material-icons button__icon">mail</i>
+                        <p class="button__text">Contact Me</p>
+                    </a>
                 </div>    
             </div>
         </section>
         <section id="about" class="about">
             <div class="container">
                 <h1 class="about__title">About Me</h1>
-                <p class="about__content">
+                <p class="about__text">
                     Hey there! I’m Evan, a 3rd-year Computer Engineering student who can’t seem 
                     to pick just one thing to love—so I explore AI, Physics, and all things tech.
                     I enjoy figuring out how stuff works and occasionally getting lost in deep tech 
@@ -57,7 +61,7 @@
         <section id="projects" class="projects">
             <div class="container">
                 <h1 class="projects__title">pRojecTs</h1>
-                <div class="projects__content">
+                <div class="projects__cards">
                     <div class="card">
                         <h2 class="card__name">
                             DOTS BCa Web App
@@ -87,7 +91,7 @@
         <section id="socials" class="socials">
             <div class="container">
                 <h1 class="socials__title">SoCiAlS</h1>
-                <p class="socials__content">
+                <p class="socials__text">
                     
                 </p>
                 <div class="socials__grid">
