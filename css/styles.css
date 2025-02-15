@@ -55,6 +55,7 @@ h1 {
 .navbar__link--focus {
     color: var(--clr-base-dk);
     font-weight: 600;
+    font-size: large;
 }
 
 .container {
