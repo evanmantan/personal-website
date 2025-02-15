@@ -29,12 +29,32 @@ h1 {
     font-size: xxx-large;
 }
 
-.header {
+.navbar {
     position: fixed;
+    width: 100%;
 }
 
-.header__nav-links {
-    margin: 0;
+.navbar__links {
+    margin: 24px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: var(--clr-base-lt);
+}
+
+.navbar__link:hover {
+    color: var(--clr-base-dk);
+}
+
+.navbar__link--focus {
+    color: var(--clr-base-dk);
+    font-weight: 600;
 }
 
 .container {
