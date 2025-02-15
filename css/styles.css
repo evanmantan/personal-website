@@ -52,13 +52,13 @@ h1 {
     justify-content: center;
 }
 
-.button {
+.home__content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.button__container {
+.button {
     display: flex;
     flex-direction: row;
     align-items: center;
