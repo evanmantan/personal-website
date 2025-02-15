@@ -1,13 +1,15 @@
 /* Design System: Color and Font */
 :root {
     /* Base Color for typography */
+    --clr-base-blk: #000000ff;
     --clr-base-dk: #43363Eff;
     --clr-base-lt: #827D89ff;
     --clr-base-ltr: #B0B3BEff;
+    --clr-base-wht: #FFFFFFff;
 
     /* Accent Color */
     --clr-primary: #222B4Cff;
-    --clr-secondary: #C51B12ff;
+    --clr-secondary: #83120Cff;
 
     /* Font */
     --ff-head: "Major Mono Display", monospace;
@@ -106,4 +108,17 @@ h1 {
 
 .button__text {
     margin: 0;
+}
+
+.about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--clr-base-blk);
+    color: var(--clr-base-ltr);
+    text-align: center;
+}
+
+.about__text {
+    padding: 0 18%;
 }
