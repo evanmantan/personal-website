@@ -131,6 +131,19 @@ h1 {
     padding: 0 18%;
 }
 
+.journey {
+    background: linear-gradient(var(--clr-base-blk), var(--clr-primary) 85%);
+    color: var(--clr-base-ltr);
+    text-align: center;
+}
+
+.journey__container {
+    display: flex;
+    padding: 15% 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .projects {
     background-color: var(--clr-secondary);
     color: var(--clr-base-wht);
