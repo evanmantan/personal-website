@@ -47,8 +47,11 @@ h1 {
     align-items: center;
 }
 
-.navbar__link {
+.link {
     text-decoration: none;
+}
+
+.navbar__link {
     color: var(--clr-base-lt);
 }
 
@@ -183,4 +186,29 @@ h1 {
 .card__link {
     width: fit-content;
     margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    color: var(--clr-base-wht);
+    padding: 12px 0 30px 0;
+    background-color: var(--clr-base-blk);
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.footer__link {
+    color: var(--clr-base-wht);
+}
+
+.footer__link:hover {
+    color: var(--clr-base-ltr)
+}
+
+.footer__copyright {
+    margin: 0;
 }
