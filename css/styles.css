@@ -138,12 +138,47 @@ h1 {
     background: linear-gradient(var(--clr-base-blk), var(--clr-primary) 85%);
     color: var(--clr-base-ltr);
     text-align: center;
+    padding-top: 200px;
 }
 
 .journey__container {
     display: flex;
     width: 100%;
     min-height: 100vh;
+}
+
+.timeline {
+    position: relative;
+    width: 90%;
+    margin: 50px auto 200px auto;
+    padding-top: 50px;
+}
+
+.timeline::after {
+    content: '';
+    width: 8px;
+    background-color: var(--clr-base-ltr);
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 0;
+    bottom: 0;
+    border-radius: 4px;
+}
+
+.timeline__container {
+    position: relative;
+    width: 40%;
+}
+
+.timeline__container_left {
+    text-align: right;
+    inset-inline-start: 5%;
+}
+
+.timeline__container_right {
+    text-align: left;
+    inset-inline-start: 55%;
 }
 
 .projects {
