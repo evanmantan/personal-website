@@ -147,7 +147,7 @@ h1 {
     background: linear-gradient(var(--clr-base-blk), var(--clr-primary) 85%);
     color: var(--clr-base-ltr);
     text-align: center;
-    padding-top: 200px;
+    padding-top: 80px;
 }
 
 .journey__container {
@@ -199,12 +199,12 @@ h1 {
     background-color: var(--clr-secondary);
     color: var(--clr-base-wht);
     text-align: center;
+    padding: 80px 0 10% 0;
 }
 
 .projects__container {
     width: 100%;
     display: flex;
-    padding: 10% 0;
 }
 
 .projects__cards {
