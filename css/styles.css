@@ -135,6 +135,10 @@ h1 {
     text-align: center;
 }
 
+.about__image {
+    display: none;
+}
+
 .about__text {
     padding: 0 18%;
 }
@@ -259,6 +263,13 @@ h1 {
         align-items: center;
         background-position: 0%;
         background-size: 180%;
+    }
+
+    .about__image {
+        display: block;
+        max-width: 20%;
+        margin: 24px auto 0 auto;
+        border-radius: 100%;
     }
 }
 
