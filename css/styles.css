@@ -276,6 +276,11 @@ h1 {
         margin: 24px auto 0 auto;
         border-radius: 100%;
     }
+
+    .projects__cards {
+        flex-direction: column;
+        gap: 12px;
+    }
 }
 
 @media (max-width: 600px) {
