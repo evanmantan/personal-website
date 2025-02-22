@@ -20,7 +20,11 @@
     --fs-body: normal;
 }
 
-body {
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
     margin: 0;
     font-family: var(--ff-body);
 }
