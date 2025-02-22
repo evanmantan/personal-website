@@ -154,6 +154,11 @@ h1 {
     display: flex;
     width: 100%;
     min-height: 100vh;
+    align-items: center;
+}
+
+.journey__text {
+    max-width: 80%;
 }
 
 .timeline {
