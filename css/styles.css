@@ -81,8 +81,9 @@ h1 {
     background-image: url("../images/bg-home.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
-    padding-left: 200px;
+    padding-left: 20%;
     flex-direction: column;
     justify-content: center;
     background-attachment: fixed;
@@ -250,4 +251,20 @@ h1 {
 
 .footer__copyright {
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding-left: 0;
+        align-items: center;
+        background-position: 0%;
+        background-size: 180%;
+    }
+}
+
+@media (max-width: 600px) {
+    .home {
+        background-size: cover;
+        background-position: 0%;
+    }
 }
